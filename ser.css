@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.kaspi {
+    display: inline-block;
+    margin-top: 10px;
+    background: #ff5c00;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+    background: #111;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.order {
+    margin-top: 20px;
+    background: green;
+    padding: 15px;
+    font-size: 16px;
+}

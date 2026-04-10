@@ -1,0 +1,54 @@
+!DOCTYPE html
+html lang=ru
+head
+    meta charset=UTF-8
+    titleSER Shoptitle
+    link rel=stylesheet href=style.css
+head
+body
+
+header
+    h1SERh1
+    pЗапасные части  Электроинструменты  Казахстанp
+
+    a class=kaspi href=httpskaspi.kzshopinfomerchant30370678reviews target=_blank
+        🛒 Наш магазин Kaspi
+    a
+header
+
+div class=container
+
+    h2📦 Каталог товаровh2
+
+    div class=grid
+
+        div class=card
+            h3Дрель Boschh3
+            pЦена 25 000 ₸p
+            button onclick=addToCart('Дрель Bosch', 25000)В корзинуbutton
+        div
+
+        div class=card
+            h3Болгарка Makitah3
+            pЦена 32 000 ₸p
+            button onclick=addToCart('Болгарка Makita', 32000)В корзинуbutton
+        div
+
+        div class=card
+            h3Подшипник SKFh3
+            pЦена 2 000 ₸p
+            button onclick=addToCart('Подшипник SKF', 2000)В корзинуbutton
+        div
+
+    div
+
+    h2🛒 Корзинаh2
+    div id=cartdiv
+
+    button class=order onclick=orderWhatsApp()Заказать в WhatsAppbutton
+
+div
+
+script src=script.jsscript
+body
+html
