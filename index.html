@@ -1,54 +1,58 @@
-!DOCTYPE html
-html lang=ru
-head
-    meta charset=UTF-8
-    titleSER Shoptitle
-    link rel=stylesheet href=style.css
-head
-body
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>SER Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-header
-    h1SERh1
-    pЗапасные части  Электроинструменты  Казахстанp
+<body>
 
-    a class=kaspi href=httpskaspi.kzshopinfomerchant30370678reviews target=_blank
+<header>
+    <h1>SER</h1>
+    <p>Запасные части | Электроинструменты | Казахстан</p>
+
+    <a class="kaspi" href="https://kaspi.kz/shop/info/merchant/30370678/reviews/" target="_blank">
         🛒 Наш магазин Kaspi
-    a
-header
+    </a>
+</header>
 
-div class=container
+<div class="container">
 
-    h2📦 Каталог товаровh2
+    <h2>📦 Каталог товаров</h2>
 
-    div class=grid
+    <div class="grid">
 
-        div class=card
-            h3Дрель Boschh3
-            pЦена 25 000 ₸p
-            button onclick=addToCart('Дрель Bosch', 25000)В корзинуbutton
-        div
+        <div class="card">
+            <h3>Дрель Bosch</h3>
+            <p>Цена: 25 000 ₸</p>
+            <button onclick="addToCart('Дрель Bosch', 25000)">В корзину</button>
+        </div>
 
-        div class=card
-            h3Болгарка Makitah3
-            pЦена 32 000 ₸p
-            button onclick=addToCart('Болгарка Makita', 32000)В корзинуbutton
-        div
+        <div class="card">
+            <h3>Болгарка Makita</h3>
+            <p>Цена: 32 000 ₸</p>
+            <button onclick="addToCart('Болгарка Makita', 32000)">В корзину</button>
+        </div>
 
-        div class=card
-            h3Подшипник SKFh3
-            pЦена 2 000 ₸p
-            button onclick=addToCart('Подшипник SKF', 2000)В корзинуbutton
-        div
+        <div class="card">
+            <h3>Подшипник SKF</h3>
+            <p>Цена: 2 000 ₸</p>
+            <button onclick="addToCart('Подшипник SKF', 2000)">В корзину</button>
+        </div>
 
-    div
+    </div>
 
-    h2🛒 Корзинаh2
-    div id=cartdiv
+    <h2>🛒 Корзина</h2>
+    <div id="cart"></div>
 
-    button class=order onclick=orderWhatsApp()Заказать в WhatsAppbutton
+    <button class="order" onclick="orderWhatsApp()">
+        Заказать в WhatsApp
+    </button>
 
-div
+</div>
 
-script src=script.jsscript
-body
-html
+<script src="script.js"></script>
+
+</body>
+</html>
